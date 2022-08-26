@@ -18,7 +18,7 @@ const ConnectionErrorPanel: React.FC<ConnectionErrorPanelProps> = ({
   return (
     <div className="h-screen flex flex-col bg-gray-300 font-sans">
       <div className="m-auto h-60 text-gray-700 text-lg min-w-lg max-w-lg">
-        <Step type="wait" msg="Trying to connect to Erigon node..." />
+        <Step type="wait" msg="Connecting to UVM node..." />
         <div className="flex space-x-2">
           <span className="ml-7 text-base">{config?.erigonURL}</span>
         </div>
